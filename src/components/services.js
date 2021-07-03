@@ -1,4 +1,4 @@
-import React from "React"
+import React from "react"
 import dentalFilling from "../assets/images/filling-icon.png"
 import RootCanal from "../assets/images/root-canal.png"
 import TeethRemoval from "../assets/images/teeth-removal.png"
