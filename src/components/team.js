@@ -1,5 +1,5 @@
 import React from "react"
-import Person1 from "../assets/team/Sunita_doibale.jpeg"
+import Person1 from "../assets/team/sunita_doibale.jpeg"
 import Person2 from "../assets/team/archana_damrekar.jpeg"
 import Person3 from "../assets/team/pradyumana_doibale.jpeg"
 import Person4 from "../assets/team/chandrakant_shete.jpeg"
