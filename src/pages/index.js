@@ -1,6 +1,4 @@
 import * as React from "react"
-import { Link } from "gatsby"
-import IntroVideo from "../assets/video.mp4"
 import Team from "../components/team"
 
 import Layout from "../components/layout"

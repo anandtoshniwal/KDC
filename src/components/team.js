@@ -12,7 +12,7 @@ const Team = () => {
         Professional team
       </p>
       <p class="text-center mb-12 text-xl font-normal text-gray-500 dark:text-gray-200">
-        Meat the best team in wolrd
+        Meet the best team in world
       </p>
       <div class="flex flex-col md:flex-row justify-evenly">
         <div class="p-4 w-full md:w-1/2 ">
