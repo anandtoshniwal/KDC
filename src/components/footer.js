@@ -46,7 +46,7 @@ const Footer = () => {
           <h3 class="text-3xl py-4 inline text-gray-300 my-0 ml-3 text-center">
             Get in touch
           </h3>
-          <div class="flex items-center mt-4 text-gray-600 dark:text-gray-400">
+          <div class="lg:flex items-center mt-4 text-gray-600 dark:text-gray-400">
             <div class="flex items-center mt-2 text-gray-600 dark:text-gray-400">
               <svg
                 fill="none"
@@ -65,7 +65,7 @@ const Footer = () => {
                 />
               </svg>
               <div class="ml-4 text-md tracking-wide font-semibold w-40 text-gray-300">
-                <a href="tel:02402970193">0240-2970193</a>
+                <a href="tel:02402970193">9422704393</a>
               </div>
             </div>
             <div class="flex items-center mt-2">
@@ -86,7 +86,7 @@ const Footer = () => {
                 />
               </svg>
               <div class="ml-4 text-md  font-semibold w-40 text-gray-300">
-                <a href="tel:9422704393">9422704393</a>
+                <a href="tel:9422704393">8766921820</a>
               </div>
             </div>
           </div>

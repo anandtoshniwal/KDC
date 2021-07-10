@@ -4,7 +4,7 @@ import family from "../assets/images/family.png"
 const Tout = () => {
   return (
     <div
-      id="menu1"
+      id="about-us"
       class="container flex flex-col px-6 py-4 mx-auto space-y-6 md:h-128 md:py-16 md:flex-row md:items-center md:space-x-6"
     >
       <div class="flex flex-col items-center w-full md:flex-row md:w-1/2">
