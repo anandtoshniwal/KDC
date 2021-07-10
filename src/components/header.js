@@ -4,8 +4,7 @@ import { Disclosure, Menu, Transition } from "@headlessui/react"
 import { MenuIcon, XIcon } from "@heroicons/react/outline"
 import Logo from "../assets/images/kcd-logo.jpeg"
 
-const navigation = ["Home", "About us", "services", "Team"]
-const profile = ["Your Profile", "Settings", "Sign out"]
+const navigation = ["Home", "About us", "Services", "Team"]
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(" ")
@@ -22,10 +21,13 @@ export default function Header() {
                 <div className="flex items-center">
                   <div className="flex-shrink-0">
                     <img
-                      className="h-auto w-20 my-4"
+                      className="h-auto w-20 my-4 mx-auto"
                       src={Logo}
-                      alt="Workflow"
+                      alt="Kranti Dental Clinic"
                     />
+                    <p className="text-white my-2 hidden md:block">
+                      Kranti Dental Clinic
+                    </p>
                   </div>
                   <div className="hidden md:block">
                     <div className="ml-10 flex items-baseline space-x-4">
@@ -34,8 +36,10 @@ export default function Header() {
                           <Fragment key={item}>
                             {/* Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" */}
                             <a
-                              href="#"
-                              className="bg-gray-900 text-white px-3 py-2 rounded-md text-sm font-medium"
+                              href={
+                                "#" + item.replace(/\s/g, "-").toLowerCase()
+                              }
+                              className="bg-gray-900 text-white px-3 py-2 rounded-md text-basefont-medium"
                             >
                               {item}
                             </a>
@@ -43,8 +47,8 @@ export default function Header() {
                         ) : (
                           <a
                             key={item}
-                            href={"#" + item.toLowerCase()}
-                            className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                            href={"#" + item.replace(/\s/g, "-").toLowerCase()}
+                            className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-base font-medium"
                           >
                             {item}
                           </a>
@@ -54,6 +58,11 @@ export default function Header() {
                   </div>
                 </div>
 
+                <div className="md:hidden">
+                  <p className="text-white my-2 hiddenmd:block">
+                    Kranti Dental Clinic
+                  </p>
+                </div>
                 <div className="-mr-2 flex md:hidden">
                   {/* Mobile menu button */}
                   <Disclosure.Button className="bg-gray-800 inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white">
@@ -75,7 +84,7 @@ export default function Header() {
                     <Fragment key={item}>
                       {/* Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" */}
                       <a
-                        href="#"
+                        href={"#" + item.replace(/\s/g, "-").toLowerCase()}
                         className="bg-gray-900 text-white block px-3 py-2 rounded-md text-base font-medium"
                       >
                         {item}
@@ -84,7 +93,7 @@ export default function Header() {
                   ) : (
                     <a
                       key={item}
-                      href="#"
+                      href={"#" + item.replace(/\s/g, "-").toLowerCase()}
                       className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                     >
                       {item}

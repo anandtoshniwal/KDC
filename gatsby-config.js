@@ -5,12 +5,13 @@ const tailwindConfig = require("./tailwind.config.js")
 
 module.exports = {
   siteMetadata: {
-    title: "Gatsby Starter Tailwind CSS",
+    title: "Kranti Dental Clinic",
     author: "Melanie Nolan",
     description: "A Gatsby starter to set you up with Tailwind CSS",
   },
   plugins: [
     "gatsby-plugin-react-helmet",
+    "gatsby-plugin-sass",
     // {
     //   resolve: "gatsby-plugin-manifest",
     //   options: {

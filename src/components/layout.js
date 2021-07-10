@@ -9,7 +9,7 @@ import * as React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 import Footer from "../components/footer"
-import Video from "../assets/video.mp4"
+import Slider from "./slider"
 import { Helmet } from "react-helmet"
 
 import Header from "./header"
@@ -36,12 +36,10 @@ const Layout = ({ children }) => {
         />
       </Helmet>
       <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
-      <div className="bg-black" id="home">
-        <video className="my-0 myx-auto w-full lg:h-lg " controls autoplay loop>
-          <source src={Video} type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>
+      <div id="home" className="bg-black lg:h-lg ">
+        <Slider />
       </div>
+
       <main>
         <div className="max-w-7xl mx-auto py-6 sm:px-6 lg:px-8">
           {/* Replace with your content */}
