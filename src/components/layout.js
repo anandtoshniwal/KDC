@@ -41,11 +41,12 @@ const Layout = ({ children }) => {
       </div>
 
       <main>
-        <div className="max-w-7xl mx-auto py-6 sm:px-6 lg:px-8">
+        <div className="max-w-7xl mx-auto py-6 sm:px-6 lg:px-8 ">
           {/* Replace with your content */}
           <div className="px-4 py-6 sm:px-0">{children}</div>
           {/* /End replace */}
         </div>
+        <div class="h-24 min-h-full bg-gradient-to-r from-indigo-500  to-green-600 py-14 flex items-center justify-center text-3xl"><div><p>Your <strong>Smile</strong></p><p class="ml-20 mb-0"> Our <strong>Vision</strong></p></div></div>
       </main>
       <Footer />
     </>

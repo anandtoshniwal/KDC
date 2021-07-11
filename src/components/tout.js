@@ -9,7 +9,7 @@ const Tout = () => {
     >
       <div class="flex flex-col items-center w-full md:flex-row md:w-1/2">
         <div class="max-w-lg md:mx-12 md:order-2">
-          <h1 class="text-3xl font-medium tracking-wide text-gray-800 dark:text-white md:text-4xl">
+          <h1 class="text-3xl font-medium tracking-wide text-gray-800 dark:text-white md:text-4xl italic">
             Spreading Smiles Since 1986...
           </h1>
           <p class="mt-4 text-gray-600 dark:text-gray-300">

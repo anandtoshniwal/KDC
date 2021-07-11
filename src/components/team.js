@@ -33,7 +33,7 @@ const Team = () => {
               </p>
 
               <p class="text-md text-gray-500 dark:text-gray-400 w-auto font-light">
-                Family Dental Surgen
+                Family Dental Surgeon
               </p>
             </div>
           </div>
@@ -56,7 +56,7 @@ const Team = () => {
               BDS (Gold Medalist)
             </p>
             <p class="text-md text-gray-500 dark:text-gray-400 font-light">
-              MDS Prosthodonstics & Implantology (Pursuing)
+              MDS Prosthodontist & Implantology (Pursuing)
             </p>
           </div>
         </div>
@@ -103,8 +103,8 @@ const Team = () => {
               </p>
 
               <p class="text-md text-gray-500 dark:text-gray-400 max-w-xs font-light">
-                Specialization: Obstructive Sleep Apnea Recipient of the
-                acclaimed Helen E Dewel award
+                Specialization: Obstructive Sleep Apnea<br /> 
+                Recipient of the acclaimed Helen E Dewel award
               </p>
             </div>
           </div>
