@@ -56,7 +56,7 @@ const Team = () => {
               BDS (Gold Medalist)
             </p>
             <p class="text-md text-gray-500 dark:text-gray-400 font-light">
-              MDS Prosthodontist & Implantology (Pursuing)
+              MDS Prosthodontics & Implantology (Pursuing)
             </p>
           </div>
         </div>
