@@ -20,7 +20,7 @@ const Services = () => {
       <div class=" grid-cols-2 md:grid-cols-3 lg:grid-cols-6 grid gap-4 justify-center align-center text-center max-w-full m-auto">
         <div class="px-5 border m-auto shadow-lg">
           <img class="mt-0 mb-5 mx-auto" src={dentalFilling} />
-          <p>Dental Filing</p>
+          <p>Dental Filling</p>
         </div>
         <div class="px-5 border m-auto shadow-lg">
           <img class="mt-0 mb-5 mx-auto" src={RootCanal} />
