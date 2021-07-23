@@ -36,7 +36,7 @@ const Footer = () => {
           <p class="text-gray-300 px-3 py-2 rounded-md text-sm font-medium">
             Om 25, Shri Vyankatesh Housing Society,
             <br />
-            jawahar Colony Area, Near Chetak Chetak ghoda Chowk,
+            jawahar Colony Area, Near Chetak ghoda Chowk,
             <br />
             Aurangabad, Maharashtra 431005
           </p>
